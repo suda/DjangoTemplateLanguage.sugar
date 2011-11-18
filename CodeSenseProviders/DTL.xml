@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+	
+	<provider>
+		<selector>html</selector>
+		<completions>com.appsome.sugar.dtl.tags</completions>
+		<complete-match capture="1">\{\%(\s[a-zA-Z]*)</complete-match>
+	</provider>
+	
+	<provider>
+		<selector>html</selector>
+		<completions>com.appsome.sugar.dtl.values</completions>
+		<complete-match capture="1">\{\{(\s[a-zA-Z]*)</complete-match>
+	</provider>
+    
+</codesense>
